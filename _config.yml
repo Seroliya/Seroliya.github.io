@@ -1,5 +1,5 @@
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
-show_downloads: true
+title: 柒柒酱的个人小站
+description: 本网站将用来存放和共享seroliya的一些文章和记录
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
