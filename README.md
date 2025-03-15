@@ -1,3 +1,11 @@
+this is a website constructed by seroliya柒柒酱
+
+the website is based on github pages,Jekyll,and the Cayman theme
+
+special thanks to [here](https://www.cnblogs.com/milton/p/16817549.html)
+
+thank u for visiting~
+
 # The Cayman theme
 
 [![.github/workflows/ci.yaml](https://github.com/pages-themes/cayman/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/cayman/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-cayman.svg)](https://badge.fury.io/rb/jekyll-theme-cayman)
