@@ -1,6 +1,6 @@
-this is a website constructed by seroliya柒柒酱
+this is a website constructed by Seroliya柒柒酱
 
-the website is based on github pages,Jekyll,and the Cayman theme
+the website is based on github pages, Jekyll, and the Cayman theme
 
 special thanks to [here](https://www.cnblogs.com/milton/p/16817549.html)
 
