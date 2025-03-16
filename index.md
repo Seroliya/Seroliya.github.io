@@ -15,8 +15,4 @@ i hope u enjoy yourself here~
 <br><br><br><br>
 _Contact me：[X](https://x.com/77KawaiiQwQ)_
 
-听着音乐看我的文章吧
 
-<audio controls='controls'>
-  <source src='./assets/music.mp3' type='audio/mp3'/>
-</audio>
