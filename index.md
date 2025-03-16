@@ -3,6 +3,7 @@ layout: default
 ---
 
 i hope u enjoy yourselves here~
+
 [听着音乐看我的文章吧](https://music.163.com/song?id=2666842841&uct2=U2FsdGVkX1+eJxX6b9/xone7M08JATZ4TiJBd2sQNvU=)
 
 ## 文章目录
