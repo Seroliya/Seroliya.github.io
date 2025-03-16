@@ -22,12 +22,21 @@ percent a ‘D’ and 15 percent an ‘F.’[1]（懒得翻译了）
 
 
 [1]NSF-Sleep-in-America-2024-Report_final.pdf
+
 [2]https://sleepdoc.com/pdf/study%20or%20sleep.pdf
+
 [3]Scott E. Carrell & Teny Maghakian & James E. West, 2011. "A's from Zzzz's? The Causal Effect of School Start Time on the Academic Achievement of Adolescents," American Economic Journal: Economic Policy, American Economic Association, vol. 3(3), pages 62-81, August.
+
 [4]Kelley, P.; Lockley, S. W. Synchronizing Education to Healthy Adolescent Brain Development: Sleep and Circadian Rhythms. 2013-04-27.
+
 PPs.国外报告由知乎@Thoughts Memo翻译。
+
 [5]教育部办公厅关于进一步加强中小学生睡眠管理工作的通知，教基厅函〔2021〕11号
+
 [6]蔡炎.青少年睡眠问题与自伤行为的关系：情绪调节困难和抑郁的链式中介作用[D].河北大学:2021.DOI:10.27103/d.cnki.ghebu.2021.001778.
+
 [7]武厚,吴俊杰,许雅青.青少年睡眠质量现状调查与对策[J].校园心理,2021,19(05):413-414. DOI:10.19521/j.cnki.1673-1662.2021.05.0]06.
+
 [8]成刚,周鹤洋,朱庆环.青少年为什么睡眠不足?——基于中国教育追踪调查数据的研究[J].教育科学研究,2022(03):42-50.
+
 [9]https://supermemo.guru/wiki/Myth:_Learning_before_sleep_is_best
