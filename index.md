@@ -17,6 +17,6 @@ _Contact me：[X](https://x.com/77KawaiiQwQ)_
 
 听着音乐看我的文章吧
 
-<audio controls>
-  <source src=./assets/ヨルシカ - へび.mp3 type=audio/mp3>
+<audio controls='controls'>
+  <source src='./assets/music.mp3' type='audio/mp3'>
 </audio>
