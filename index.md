@@ -2,11 +2,7 @@
 layout: default
 ---
 <div style='text-align:center;'>
-
 i hope u enjoy yourselves here~
-
-[听着音乐看我的文章吧](https://music.163.com/song?id=2666842841&uct2=U2FsdGVkX1+eJxX6b9/xone7M08JATZ4TiJBd2sQNvU=)
-
 </div>
 
 ## 文章目录
@@ -16,3 +12,5 @@ i hope u enjoy yourselves here~
 [青少年睡眠杂谈](./sleeptalk.html)
 <br><br><br><br>
 _Contact me：[X](https://x.com/77KawaiiQwQ)_
+
+[听着音乐看我的文章吧](https://music.163.com/song?id=2666842841&uct2=U2FsdGVkX1+eJxX6b9/xone7M08JATZ4TiJBd2sQNvU=)
