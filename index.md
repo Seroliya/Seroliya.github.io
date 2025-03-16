@@ -2,7 +2,7 @@
 layout: default
 ---
 <div style='text-align:center;'>
-i hope u enjoy yourselves here~
+i hope u enjoy yourself here~
 </div>
 
 ## 文章目录
@@ -15,4 +15,8 @@ i hope u enjoy yourselves here~
 <br><br><br><br>
 _Contact me：[X](https://x.com/77KawaiiQwQ)_
 
-[听着音乐看我的文章吧](https://music.163.com/song?id=2666842841&uct2=U2FsdGVkX1+eJxX6b9/xone7M08JATZ4TiJBd2sQNvU=)
+听着音乐看我的文章吧
+
+<audio controls>
+  <source src=./assets/ヨルシカ - へび.mp3 type=audio/mpeg>
+</audio>
