@@ -22,16 +22,16 @@ percent a ‘D’ and 15 percent an ‘F.’[^1]
 一则流传甚广的谬误认为应当睡前学习新事物，睡前学到的东西在一夜之间得到了最好的巩固。的确，睡眠对于巩固记忆是必不可少的。然而，睡前学习并不是最理想的。夜间学习可以减少记忆干扰，即白天获得的新知识对所学材料的清除。然而，一个更为重要的因素是大脑在学习过程中的神经激素状态。从这个意义上说，大脑最适合在早晨学习。它表现出最高的警觉性以及对注意力和创造力之间平衡的最佳控制。在知识结构和处理速度方面的收获远远超过了深夜学习的所有次要优势。[^9]
 
 
-[1]NSF-Sleep-in-America-2024-Report_final.pdf(#ref1)
+[^1]NSF-Sleep-in-America-2024-Report_final.pdf(#ref1)
 <span id='ref1'><span>
 
-[2]https://sleepdoc.com/pdf/study%20or%20sleep.pdf(#ref2)
+[^2]https://sleepdoc.com/pdf/study%20or%20sleep.pdf(#ref2)
 <span id='ref2'><span>
 
-[3]Scott E. Carrell & Teny Maghakian & James E. West, 2011. "A's from Zzzz's? The Causal Effect of School Start Time on the Academic Achievement of Adolescents," American Economic Journal: Economic Policy, American Economic Association, vol. 3(3), pages 62-81, August.(#ref3)
+[^3]Scott E. Carrell & Teny Maghakian & James E. West, 2011. "A's from Zzzz's? The Causal Effect of School Start Time on the Academic Achievement of Adolescents," American Economic Journal: Economic Policy, American Economic Association, vol. 3(3), pages 62-81, August.(#ref3)
 <span id='ref3'><span>
 
-[4]Kelley, P.; Lockley, S. W. Synchronizing Education to Healthy Adolescent Brain Development: Sleep and Circadian Rhythms. 2013-04-27.(#ref4)
+[^4]Kelley, P.; Lockley, S. W. Synchronizing Education to Healthy Adolescent Brain Development: Sleep and Circadian Rhythms. 2013-04-27.(#ref4)
 <span id='ref4'><span>
 
 PPs.国外报告由知乎@Thoughts Memo翻译。
@@ -39,16 +39,16 @@ PPs.国外报告由知乎@Thoughts Memo翻译。
 [^5]:教育部办公厅关于进一步加强中小学生睡眠管理工作的通知，教基厅函〔2021〕11号(#ref5)
 <span id='ref5'><span>
 
-[6]蔡炎.青少年睡眠问题与自伤行为的关系：情绪调节困难和抑郁的链式中介作用[D].河北大学:2021.DOI:10.27103/d.cnki.ghebu.2021.001778.(#ref6)
+[^6]蔡炎.青少年睡眠问题与自伤行为的关系：情绪调节困难和抑郁的链式中介作用[D].河北大学:2021.DOI:10.27103/d.cnki.ghebu.2021.001778.(#ref6)
 <span id='ref6'><span>
 
-[7]武厚,吴俊杰,许雅青.青少年睡眠质量现状调查与对策[J].校园心理,2021,19(05):413-414. DOI:10.19521/j.cnki.1673-1662.2021.05.0]06.(#ref7)
+[^7]武厚,吴俊杰,许雅青.青少年睡眠质量现状调查与对策[J].校园心理,2021,19(05):413-414. DOI:10.19521/j.cnki.1673-1662.2021.05.0]06.(#ref7)
 <span id='ref7'><span>
 
-[8]成刚,周鹤洋,朱庆环.青少年为什么睡眠不足?——基于中国教育追踪调查数据的研究[J].教育科学研究,2022(03):42-50.(#ref8)
+[^8]成刚,周鹤洋,朱庆环.青少年为什么睡眠不足?——基于中国教育追踪调查数据的研究[J].教育科学研究,2022(03):42-50.(#ref8)
 <span id='ref8'><span>
 
-[9]https://supermemo.guru/wiki/Myth:_Learning_before_sleep_is_best(#ref9)
+[^9]https://supermemo.guru/wiki/Myth:_Learning_before_sleep_is_best(#ref9)
 <span id='ref9'><span>
 
 [回到主页](./)
