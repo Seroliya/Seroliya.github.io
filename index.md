@@ -20,6 +20,6 @@ i hope u enjoy yourself here~
 [24暑期事件谱后记-代结语](./docs/24暑期事件谱后记-代结语.html)
 
 <br><br><br><br>
-_Contact me：[X](https://x.com/77KawaiiQwQ)_
+Contact me：[X](https://x.com/77KawaiiQwQ)_
 
 
