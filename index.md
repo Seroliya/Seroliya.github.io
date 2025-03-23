@@ -17,7 +17,7 @@ i hope u enjoy yourself here~
 
 [看看这些美好的事件会不会出现在你寒假里](./看看这些美好的事件会不会出现在你寒假里.html)
 
-[24暑期事件谱后记-代结语](./24暑期事件谱后记-代结语.html)
+[24暑期事件谱后记-代结语](./docs/24暑期事件谱后记-代结语.html)
 
 <br><br><br><br>
 _Contact me：[X](https://x.com/77KawaiiQwQ)_
