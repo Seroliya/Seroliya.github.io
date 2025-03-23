@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 关于od的分析报告之一
-description: 写于2024年11月
+description: 2024.11
 ---
 # 受害者有罪论分析&od的娱乐性本质——关于od的观察分析总结之一 #
 
