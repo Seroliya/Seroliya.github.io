@@ -11,7 +11,11 @@ i hope u enjoy yourself here~
 
 [拾缀集](./docs/拾缀集.html)
 
-[WISHES OF 16 BIRTHDAY](./docs/WISHES OF 16 BIRTHDAY.html)
+[WISHES OF 16 BIRTHDAY](./docs/WISHES_OF_16_BIRTHDAY.html)
+
+[关于"忘记"](./docs/关于"忘记".html)
+
+[我只是在享受难得的自由](./docs/我只是在享受难得的自由.html)
 
 [人们其实并不了解生活中的那些npc](./docs/人们其实并不了解生活中的那些npc.html)
 
