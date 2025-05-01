@@ -11,6 +11,12 @@ i hope u enjoy yourself here~
 
 [拾缀集](./docs/拾缀集.html)
 
+[WISHES OF 16 BIRTHDAY](./docs/WISHES OF 16 BIRTHDAY.html)
+
+[人们其实并不了解生活中的那些npc](./docs/人们其实并不了解生活中的那些npc.html)
+
+[三叶和泷重识后怎样](./docs/三叶和泷重识后怎样.html)
+
 [关于overdose的分析报告24.11](./docs/关于od的分析报告之一.html)
 
 [青少年睡眠杂谈](./docs/青少年睡眠杂谈.html)
