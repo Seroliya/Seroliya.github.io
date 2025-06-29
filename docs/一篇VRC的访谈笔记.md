@@ -1,3 +1,8 @@
+---
+layout: default
+title: 一篇VRC的访谈笔记
+description: 柒柒酱的个人小站
+---
 ## VRC与现实的相同之处
 
 - 都是在扮演角色。
