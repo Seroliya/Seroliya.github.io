@@ -7,18 +7,18 @@ hero:
   text: "& Personal Archive"
   tagline: 
   actions:
-    - theme: brand
+    - theme: alt
       text: 日常周记
-      link: /docs/Ryoko的日常周记/
+      link: /日常周记/Think Carefully & Move Boldly：柒柒的高二总结
     - theme: alt
       text: 社交笔记
-      link: /docs/Aliya的社交笔记/
+      link: /社交笔记/社交笔记之一：将抑郁深藏于心的“小太阳”
     - theme: alt
-      text: 社会报告
-      link: /docs/Aliya的社交笔记/
+      text: 社会思考
+      link: /社会思考/应试教育：为何离开，何时回来
     - theme: alt
       text: Project
-      link: /docs/Aliya的社交笔记/
+      link: https://seroliya.github.io/emo_support_ai/
 
 features:
   - title: Feature A
