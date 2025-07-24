@@ -8,6 +8,6 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "vite-plugin-vitepress-auto-sidebar": "^1.7.1"
+   
   }
 }
