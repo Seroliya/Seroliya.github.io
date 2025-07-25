@@ -1,10 +1,10 @@
 import { defineConfig } from 'vitepress'
 
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "柒柒酱的个人小站",
   description: "柒柒酱的个人小站",
+  head: [["link", { rel: "icon", href: "/logo.svg" }]],
   themeConfig: {
     search: {
       provider: "local",
