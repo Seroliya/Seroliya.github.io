@@ -17,8 +17,8 @@ hero:
       text: 社会思考
       link: /社会思考/应试教育：为何离开，何时回来
     - theme: alt
-      text: Project(施工中）
-      link: https://seroliya.github.io/emo_support_ai/
+      text: 其他随笔
+      link: /其他随笔/荐号荐号
 
 features:
   - title: ❓你知道吗
