@@ -77,6 +77,14 @@ export default defineConfig({
       },
 
       {
+        text: "其他随笔",
+        items: [
+          { text: '荐号荐号', link: '/其他随笔/荐号荐号' },
+          { text: '微调AI的数字分身＆长篇社会报告写作的感悟”', link: '/其他随笔/微调AI的数字分身＆长篇社会报告写作的感悟' }, 
+        ]
+      },
+
+      {
         text: "Project",
         items: [
           {text: 'AI情感支持', link: "https://seroliya.github.io/emo_support_ai/"},
