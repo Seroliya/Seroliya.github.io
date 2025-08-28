@@ -31,7 +31,7 @@ export default defineConfig({
       { text: '日常周记', link: '/日常周记/Think Carefully & Move Boldly：柒柒的高二总结'},
       { text: '社交笔记', link: '/社交笔记/社交笔记之一：将抑郁深藏于心的“小太阳”' },
       { text: '社会思考', link: '/社会思考/应试教育：为何离开，何时回来' },
-      { text: 'Project', link: 'https://seroliya.github.io/emo_support_ai/' },
+      { text: '其他随笔', link: '/其他随笔/荐号荐号' },
     ],
 
     sidebar: [
