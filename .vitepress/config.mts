@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "柒柒酱的个人小站",
   description: "柒柒酱的个人小站",
-  head: [["link", { rel: "icon", href: "/logo.svg" }]],
+  head: [["link", { rel: "icon", href: "/icon.svg" }]],
   themeConfig: {
     search: {
       provider: "local",
