@@ -9,16 +9,16 @@ hero:
   actions:
     - theme: alt
       text: 社会现象与心理
-      link: /社会现象与心理/Think Carefully & Move Boldly：柒柒的高二总结
+      link: /社会现象与心理/Social_Phenomenon&Psycholgy'
     - theme: alt
       text: 社交与信息获取
-      link: /社交与信息获取/社交笔记之一：将抑郁深藏于心的“小太阳”
+      link: /社交与信息获取/Socializing&Information_Gathering
     - theme: alt
       text: 自我提升和学习
-      link: /自我提升和学习/应试教育：为何离开，何时回来
+      link: /自我提升和学习/Self_improvement&Studying
     - theme: alt
       text: 其他随笔
-      link: /其他随笔/荐号荐号
+      link: /其他随笔/Others
 
 features:
   - title: ❓你知道吗
