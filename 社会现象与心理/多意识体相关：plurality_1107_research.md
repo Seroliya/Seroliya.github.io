@@ -1,4 +1,4 @@
-# plurality_1107_research
+# Plurality_1107_research
 
 由Seroliya_7总结整理，251107一编。
 ## 1.多意识体的分类
