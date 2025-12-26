@@ -1,6 +1,9 @@
 # Plurality_1107_research
 
 由Seroliya_7总结整理，251107一编。
+
+（还有小部分待整理）
+
 ## 1.多意识体的分类
 
 **Emmengard‘s Plural Rings** ---[多重人格手册](https://zhuanlan.zhihu.com/p/526162255)
