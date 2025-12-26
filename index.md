@@ -8,13 +8,13 @@ hero:
   tagline: 
   actions:
     - theme: alt
-      text: 日常周记
+      text: 社会现象与心理
       link: /日常周记/Think Carefully & Move Boldly：柒柒的高二总结
     - theme: alt
-      text: 社交笔记
+      text: 社交与信息获取
       link: /社交笔记/社交笔记之一：将抑郁深藏于心的“小太阳”
     - theme: alt
-      text: 社会思考
+      text: 自我提升和学习
       link: /社会思考/应试教育：为何离开，何时回来
     - theme: alt
       text: 其他随笔
@@ -26,6 +26,6 @@ features:
   - title: 🌍网站是怎么写的
     details: 用了vitepress配置，原因是看mtf.wiki的时候觉得这模板挺好看
   - title: 💖柒柒常用的个性签名
-    details: illumi 是 illuminate的意思，柒柒总是希望能让每一个出现在自己生活中的人都获得幸福
+    details: illumi 是 illuminate的意思，取材于一首很富有情感的钢琴曲。我希望能够“照亮”那些位于社会边缘，内心仍良善澄澈的人们；同时也“探明”那些内涵深刻、尚待挖掘的社会现象们。
 ---
 
