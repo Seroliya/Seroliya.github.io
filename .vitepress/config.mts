@@ -28,7 +28,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '社会现象与心理', link: '/社会现象与心理/Social_Phenomenon&Psycholgy' },
+      { text: '社会现象与心理', link: '/社会现象与心理/Social_Phenomenon&Psychology' },
       { text: '自我提升和学习', link: '/自我提升和学习/Self_improvement&Studying' },
       { text: '社交与信息获取', link: '/社交与信息获取/Socializing&Information_Gathering' },
       { text: '其他随笔', link: '/其他随笔/Others' },
