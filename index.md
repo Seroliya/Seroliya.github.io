@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: alt
       text: 社会现象与心理
-      link: /社会现象与心理/Social_Phenomenon&Psycholgy'
+      link: /社会现象与心理/Social_Phenomenon&Psychology
     - theme: alt
       text: 社交与信息获取
       link: /社交与信息获取/Socializing&Information_Gathering

@@ -62,8 +62,8 @@ export default defineConfig({
       {
         text: "社会现象与心理",
         items: [
-          { text: '亚硝酸钠与自杀干预', link: '/社会现象与心理/亚硝酸钠与自杀干预' },
           { text: '多意识体相关：plurality_1107_research', link: '/社会现象与心理/多意识体相关：plurality_1107_research' },
+          { text: '亚硝酸钠与自杀干预', link: '/社会现象与心理/亚硝酸钠与自杀干预' },
           { text: '关于od的研究笔记：一切分崩离析之后', link: '/社会现象与心理/关于od的研究笔记：一切分崩离析之后' },
           
           {
