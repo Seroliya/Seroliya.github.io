@@ -38,7 +38,7 @@ export default defineConfig({
       {
         text: '自我提升和学习',
         items: [
-          { text: 'Think Carefully & Move Boldly：柒柒的高二总结', link: '/自我提升和学习/Think Carefully & Move Boldly：柒柒的高二总结' },
+          { text: 'Think Carefully & Move Boldly：柒柒的高二总结', link: '/自我提升和学习/Think_Carefully&Move_Boldly：柒柒的高二总结' },
           { text: '周记25.16-主观能动性，金钱观，博弈下的人际关系', link: '/自我提升和学习/周记25.16-主观能动性，金钱观，博弈下的人际关系' },
           { text: '周记25.17-回首与重构：对过往学习方式的重新审视', link: '/自我提升和学习/周记25.17-回首与重构：对过往学习方式的重新审视' },
           { text: '周记25.20-自信的培养与主被动学习的同调', link: '/自我提升和学习/周记25.20-自信的培养与主被动学习的同调' },
@@ -52,7 +52,7 @@ export default defineConfig({
       {
         text: "社交与信息获取",
         items: [
-          { text: 'Friend is Magic：我是怎么离开社交深渊的', link: '/社交与信息获取/Friend is Magic：我是怎么离开社交深渊的' },
+          { text: 'Friend_is_Magic：我是怎么离开社交深渊的', link: '/社交与信息获取/Friend_is_Magic：我是怎么离开社交深渊的' },
           { text: '社交笔记之一：将抑郁深藏于心的“小太阳”', link: '/社交与信息获取/社交笔记之一：将抑郁深藏于心的“小太阳”' },
           { text: '社交笔记之二：中考复读，她如何“出淤泥而不染”', link: '/社交与信息获取/社交笔记之二：中考复读，她如何“出淤泥而不染”' },
           { text: '社交记录之三：何时淡出一段关系；二次元社交', link: '/社交与信息获取/社交记录之三：何时淡出一段关系；二次元社交' },
