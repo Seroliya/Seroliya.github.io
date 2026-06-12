@@ -2,6 +2,7 @@ import { generateId } from "./commonTools.mjs";
 import { globby } from "globby";
 import matter from "gray-matter";
 import fs from "fs-extra";
+import articleOrder from "./articleOrder.mjs";
 
 /**
  * 获取 posts 目录下所有 Markdown 文件的路径
@@ -41,13 +42,64 @@ const getPostMDFilePaths = async () => {
 const compareDate = (obj1, obj2) => {
   return obj1.date < obj2.date ? 1 : -1;
 };
+
+/**
+ * 2026年6月13日/14日分界线
+ * lastModified > SORT_CUTOFF → 新文章（排在前面）
+ * lastModified <= SORT_CUTOFF → 旧文章（按手动列表排序）
+ */
+const SORT_CUTOFF = new Date("2026-06-14T00:00:00").getTime();
+
+/**
+ * 构建手动排序映射表（文件路径 → 列表索引）
+ */
+const buildOrderMap = () => {
+  const map = new Map();
+  articleOrder.forEach((entry, index) => map.set(entry.path, index));
+  return map;
+};
+
+/**
+ * 构建手动日期映射表（文件路径 → 真实创建日期的时间戳）
+ */
+const buildManualDateMap = () => {
+  const map = new Map();
+  for (const entry of articleOrder) {
+    if (entry.date) {
+      map.set(entry.path, new Date(entry.date).getTime());
+    }
+  }
+  return map;
+};
+
 const comparePostPriority = (a, b) => {
-  if (a.top && !b.top) {
-    return -1;
-  }
-  if (!a.top && b.top) {
-    return 1;
-  }
+  // 第0级：置顶文章排最前
+  if (a.top && !b.top) return -1;
+  if (!a.top && b.top) return 1;
+  // 都是置顶文章，按日期降序
+  if (a.top && b.top) return compareDate(a, b);
+
+  // 都不是置顶文章
+  const aNew = a.lastModified > SORT_CUTOFF;
+  const bNew = b.lastModified > SORT_CUTOFF;
+
+  // 第1级：2026年6月14日之后的文章排在前面
+  if (aNew && !bNew) return -1;
+  if (!aNew && bNew) return 1;
+  // 都是新文章，按日期降序
+  if (aNew && bNew) return compareDate(a, b);
+
+  // 第2级：2026年6月13日之前的文章，按手动排序列表
+  const orderMap = buildOrderMap();
+  const aIndex = orderMap.get(a.filePath) ?? -1;
+  const bIndex = orderMap.get(b.filePath) ?? -1;
+
+  // 都在列表中 → 按列表顺序
+  if (aIndex !== -1 && bIndex !== -1) return aIndex - bIndex;
+  // 在列表中的排前面
+  if (aIndex !== -1) return -1;
+  if (bIndex !== -1) return 1;
+  // 都不在列表中 → 按日期降序
   return compareDate(a, b);
 };
 
@@ -71,7 +123,7 @@ export const getAllPosts = async () => {
           const { birthtimeMs, mtimeMs } = stat;
           // 解析 front matter
           const { data, content: bodyContent } = matter(content);
-          const { title, date, categories, description, tags, top, cover } = data;
+          const { title, date: fmDate, categories, description, tags, top, cover } = data;
           // 如果 frontmatter 没有 title，从正文第一个 # 标题提取
           const extractedTitle = title || (() => {
             const match = bodyContent.match(/^#\s+(.+)$/m);
@@ -84,24 +136,31 @@ export const getAllPosts = async () => {
             // 只取第一级目录
             return [parts[0]];
           })();
-          // 如果 frontmatter 没有 tags，且属于“社会现象与心理”子目录，用子文件夹名作为 tag
+          // 如果 frontmatter 没有 tags，且属于"社会现象与心理"子目录，用子文件夹名作为 tag
           const extractedTags = tags || (() => {
             const parts = item.replace(/\\/g, "/").split("/");
-            // 至少有父目录和子目录两层，且父目录是“社会现象与心理”
+            // 至少有父目录和子目录两层，且父目录是"社会现象与心理"
             if (parts.length >= 3 && parts[0] === "社会现象与心理") {
               return [parts[1]];
             }
             return null;
           })();
+          // 日期：手动列表日期 > frontmatter 日期 > 文件创建日期
+          const manualDateMap = buildManualDateMap();
+          const manualDate = manualDateMap.get(item);
+          const finalDate = manualDate != null
+            ? manualDate
+            : (fmDate ? new Date(fmDate).getTime() : birthtimeMs);
           // 计算文章的过期天数
-          const expired = date ? Math.floor(
-            (new Date().getTime() - new Date(date).getTime()) / (1000 * 60 * 60 * 24),
-          ) : 0;
+          const expired = Math.floor(
+            (new Date().getTime() - finalDate) / (1000 * 60 * 60 * 24),
+          );
           // 返回文章对象
           return {
             id: generateId(item),
+            filePath: item,
             title: extractedTitle || "未命名文章",
-            date: date ? new Date(date).getTime() : birthtimeMs,
+            date: finalDate,
             lastModified: mtimeMs,
             expired,
             tags: extractedTags,
