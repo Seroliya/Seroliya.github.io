@@ -9,6 +9,7 @@ import {
   getCurrentScope,
   h,
   hasInjectionContext,
+  init_vue_runtime_esm_bundler,
   inject,
   isReactive,
   isReadonly,
@@ -35,9 +36,11 @@ import {
   unref,
   watch,
   watchEffect
-} from "./chunk-HVR2FF6M.js";
+} from "./chunk-VAFUXHXA.js";
+import "./chunk-EWTE5DHJ.js";
 
 // node_modules/@vueuse/shared/index.mjs
+init_vue_runtime_esm_bundler();
 function computedEager(fn, options) {
   var _a;
   const result = shallowRef();
@@ -1569,7 +1572,8 @@ function whenever(source, cb, options) {
   return stop;
 }
 
-// node_modules/@vueuse/core/index.mjs
+// node_modules/vitepress/node_modules/@vueuse/core/index.mjs
+init_vue_runtime_esm_bundler();
 function computedAsync(evaluationCallback, initialState, optionsOrRef) {
   let options;
   if (isRef(optionsOrRef)) {
