@@ -51,55 +51,44 @@ const compareDate = (obj1, obj2) => {
 const SORT_CUTOFF = new Date("2026-06-14T00:00:00").getTime();
 
 /**
- * 构建手动排序映射表（文件路径 → 列表索引）
+ * 从 articleOrder 构建两个模块级映射表（只构建一次）：
+ *   orderMap:   文件路径 → 列表中的排序索引
+ *   manualDateMap: 文件路径 → 手动指定的真实创建时间戳
  */
-const buildOrderMap = () => {
-  const map = new Map();
-  articleOrder.forEach((entry, index) => map.set(entry.path, index));
-  return map;
-};
+const orderMap = new Map();
+const manualDateMap = new Map();
+articleOrder.forEach((entry, index) => {
+  orderMap.set(entry.path, index);
+  if (entry.date) {
+    manualDateMap.set(entry.path, new Date(entry.date).getTime());
+  }
+});
 
 /**
- * 构建手动日期映射表（文件路径 → 真实创建日期的时间戳）
+ * 文章排序比较函数
+ * 第0级：置顶文章排最前（置顶之间按日期降序）
+ * 第1级：2026年6月14日之后编辑的新文章排在前面（新文章之间按日期降序）
+ * 第2级：旧文章按 articleOrder 列表顺序排列；不在列表中的按日期降序排在末尾
  */
-const buildManualDateMap = () => {
-  const map = new Map();
-  for (const entry of articleOrder) {
-    if (entry.date) {
-      map.set(entry.path, new Date(entry.date).getTime());
-    }
-  }
-  return map;
-};
-
 const comparePostPriority = (a, b) => {
-  // 第0级：置顶文章排最前
+  // 第0级：置顶
   if (a.top && !b.top) return -1;
   if (!a.top && b.top) return 1;
-  // 都是置顶文章，按日期降序
   if (a.top && b.top) return compareDate(a, b);
 
-  // 都不是置顶文章
+  // 第1级：新文章 vs 旧文章
   const aNew = a.lastModified > SORT_CUTOFF;
   const bNew = b.lastModified > SORT_CUTOFF;
-
-  // 第1级：2026年6月14日之后的文章排在前面
   if (aNew && !bNew) return -1;
   if (!aNew && bNew) return 1;
-  // 都是新文章，按日期降序
   if (aNew && bNew) return compareDate(a, b);
 
-  // 第2级：2026年6月13日之前的文章，按手动排序列表
-  const orderMap = buildOrderMap();
+  // 第2级：旧文章按手动列表排序
   const aIndex = orderMap.get(a.filePath) ?? -1;
   const bIndex = orderMap.get(b.filePath) ?? -1;
-
-  // 都在列表中 → 按列表顺序
   if (aIndex !== -1 && bIndex !== -1) return aIndex - bIndex;
-  // 在列表中的排前面
   if (aIndex !== -1) return -1;
   if (bIndex !== -1) return 1;
-  // 都不在列表中 → 按日期降序
   return compareDate(a, b);
 };
 
@@ -146,7 +135,6 @@ export const getAllPosts = async () => {
             return null;
           })();
           // 日期：手动列表日期 > frontmatter 日期 > 文件创建日期
-          const manualDateMap = buildManualDateMap();
           const manualDate = manualDateMap.get(item);
           const finalDate = manualDate != null
             ? manualDate
