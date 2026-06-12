@@ -195,7 +195,6 @@ const toPost = (path) => {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
         color: var(--main-font-second-color);
         .post-tags {
           display: flex;
@@ -238,6 +237,7 @@ const toPost = (path) => {
           opacity: 0.6;
           font-size: 13px;
           white-space: nowrap;
+          margin-left: auto;
         }
       }
     }
